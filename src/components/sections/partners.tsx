@@ -18,7 +18,7 @@ const partners = [
   },
   {
     name: "Adolf Würth GmbH & Co. KG",
-    logo: "/images/0-wrt-linie-rgb-pos_large_leVigDY_vr.jpg",
+    logo: "/images/wuerth-logo.png",
     url: "https://www.wuerth.de/",
   },
 ];
@@ -72,7 +72,7 @@ export function Partners() {
                   alt={partner.name}
                   width={160}
                   height={64}
-                  className="h-full w-auto object-contain mix-blend-multiply"
+                  className="h-full w-auto object-contain"
                 />
               </a>
             ))}

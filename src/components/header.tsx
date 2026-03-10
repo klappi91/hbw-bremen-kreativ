@@ -110,11 +110,11 @@ export function Header() {
           aria-label="HBW Bremen — Startseite"
         >
           <Image
-            src="/images/logo.png"
+            src={scrolled ? "/images/logo.png" : "/images/logo-white.png"}
             alt="HBW Bremen Logo"
             width={160}
             height={48}
-            className="h-10 w-auto sm:h-12"
+            className="h-10 w-auto sm:h-12 transition-opacity duration-300"
             priority
           />
         </Link>

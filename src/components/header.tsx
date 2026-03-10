@@ -224,7 +224,7 @@ export function Header() {
             className="relative inline-flex items-center gap-2 overflow-hidden rounded-xl bg-brand-accent px-5 py-2.5 text-sm font-bold text-brand-secondary transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-brand-accent/30 active:scale-[0.98] min-h-[44px]"
           >
             <span className="relative z-10">Termin vereinbaren</span>
-            <span className="absolute inset-0 bg-gradient-to-r from-brand-accent to-[#c8e234] opacity-0 transition-opacity duration-300 hover:opacity-100" />
+            <span className="absolute inset-0 bg-gradient-to-r from-brand-accent to-brand-primary opacity-0 transition-opacity duration-300 hover:opacity-100" />
           </Link>
         </div>
 

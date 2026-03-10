@@ -177,26 +177,26 @@ export default function LeistungenPage() {
                   {/* Overlay */}
                   <div className="absolute inset-0 bg-gradient-to-t from-brand-secondary via-brand-secondary/40 to-transparent opacity-80 group-hover:opacity-90 transition-opacity duration-500" />
 
+                  {/* Arrow button */}
+                  <div className="absolute top-4 right-4 md:top-auto md:bottom-8 md:right-8 flex-shrink-0 w-10 h-10 md:w-12 md:h-12 rounded-full bg-brand-accent flex items-center justify-center transition-transform duration-300 group-hover:scale-110 group-hover:rotate-12 z-10">
+                    <ArrowUpRight className="w-4 h-4 md:w-5 md:h-5 text-brand-secondary" />
+                  </div>
+
                   {/* Content */}
                   <div className="absolute inset-0 flex flex-col justify-end p-6 md:p-8">
-                    <div className="flex items-end justify-between gap-4">
-                      <div>
-                        <h2
-                          className={`font-semibold text-white mb-2 ${
-                            i === 0
-                              ? "text-3xl md:text-4xl"
-                              : "text-2xl md:text-3xl"
-                          }`}
-                        >
-                          {service.title}
-                        </h2>
-                        <p className="text-white/70 font-light max-w-md leading-relaxed text-sm md:text-base">
-                          {service.description}
-                        </p>
-                      </div>
-                      <div className="flex-shrink-0 w-12 h-12 rounded-full bg-brand-accent flex items-center justify-center transition-transform duration-300 group-hover:scale-110 group-hover:rotate-12">
-                        <ArrowUpRight className="w-5 h-5 text-brand-secondary" />
-                      </div>
+                    <div>
+                      <h2
+                        className={`font-semibold text-white mb-2 ${
+                          i === 0
+                            ? "text-2xl md:text-4xl"
+                            : "text-2xl md:text-3xl"
+                        }`}
+                      >
+                        {service.title}
+                      </h2>
+                      <p className="text-white/70 font-light max-w-md leading-relaxed text-sm md:text-base">
+                        {service.description}
+                      </p>
                     </div>
                   </div>
 

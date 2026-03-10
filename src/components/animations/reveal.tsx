@@ -83,7 +83,7 @@ export function Reveal({
   }, [direction, delay, duration, distance, stagger]);
 
   return (
-    <div ref={ref} className={className}>
+    <div ref={ref} className={className} style={{ willChange: "transform, opacity" }}>
       {children}
     </div>
   );

@@ -57,10 +57,19 @@ export function Header() {
   const [leistungenOpen, setLeistungenOpen] = useState(false)
   const [desktopDropdownOpen, setDesktopDropdownOpen] = useState(false)
 
-  // Track scroll position to toggle header background
+  // Track scroll position to toggle header background (throttled with rAF)
   useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 20)
-    onScroll() // check initial position
+    let ticking = false
+    const onScroll = () => {
+      if (!ticking) {
+        requestAnimationFrame(() => {
+          setScrolled(window.scrollY > 20)
+          ticking = false
+        })
+        ticking = true
+      }
+    }
+    onScroll()
     window.addEventListener("scroll", onScroll, { passive: true })
     return () => window.removeEventListener("scroll", onScroll)
   }, [])

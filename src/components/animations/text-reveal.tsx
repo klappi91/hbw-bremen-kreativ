@@ -79,7 +79,7 @@ export function TextReveal({
       style={{ display: "flex", flexWrap: "wrap", gap: splitBy === "words" ? "0.3em" : 0 }}
     >
       {segments.map(({ key, content }) => (
-        <span key={key} data-animate style={{ display: "inline-block" }}>
+        <span key={key} data-animate style={{ display: "inline-block", willChange: "transform, opacity" }}>
           {content}
         </span>
       ))}

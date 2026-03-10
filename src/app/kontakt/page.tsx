@@ -292,7 +292,7 @@ export default function KontaktPage() {
                           required
                           checked={datenschutz}
                           onChange={(e) => setDatenschutz(e.target.checked)}
-                          className="mt-1 h-5 w-5 accent-brand-primary rounded border-brand-surface"
+                          className="mt-1 h-6 w-6 accent-brand-primary rounded border-brand-surface"
                         />
                         <label
                           htmlFor="datenschutz"

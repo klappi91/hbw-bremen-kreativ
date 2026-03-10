@@ -22,6 +22,7 @@ const unternehmenLinks = [
 const rechtlichesLinks = [
   { label: "Impressum", href: "/impressum" },
   { label: "Datenschutz", href: "/datenschutz" },
+  { label: "Digitale Barrierefreiheit", href: "/digitale-barrierefreiheit" },
 ];
 
 const partners = [
@@ -146,7 +147,7 @@ export function Footer() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-sm text-white/60 transition-colors hover:text-brand-accent"
+                    className="text-sm text-white/70 transition-colors hover:text-brand-accent"
                   >
                     {link.label}
                   </Link>
@@ -166,7 +167,7 @@ export function Footer() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-sm text-white/60 transition-colors hover:text-brand-accent"
+                    className="text-sm text-white/70 transition-colors hover:text-brand-accent"
                   >
                     {link.label}
                   </Link>
@@ -186,7 +187,7 @@ export function Footer() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-sm text-white/60 transition-colors hover:text-brand-accent"
+                    className="text-sm text-white/70 transition-colors hover:text-brand-accent"
                   >
                     {link.label}
                   </Link>

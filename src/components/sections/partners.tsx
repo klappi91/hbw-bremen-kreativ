@@ -72,7 +72,7 @@ export function Partners() {
                   alt={partner.name}
                   width={160}
                   height={64}
-                  className="h-full w-auto object-contain"
+                  className="h-full w-auto object-contain mix-blend-multiply"
                 />
               </a>
             ))}

@@ -298,7 +298,7 @@ export default function KontaktPage() {
                           htmlFor="datenschutz"
                           className="text-sm text-brand-muted leading-relaxed"
                         >
-                          Ich stimme der Verarbeitung meiner Daten gemaess der{" "}
+                          Ich stimme der Verarbeitung meiner Daten gemäß der{" "}
                           <Link
                             href="/datenschutz"
                             className="text-brand-primary underline hover:text-brand-secondary"

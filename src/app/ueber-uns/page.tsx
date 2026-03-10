@@ -319,15 +319,15 @@ export default function UeberUnsPage() {
               <div className="hidden md:block w-[2px] h-full bg-brand-accent/30" />
               <div>
                 <p className="text-white/80 text-lg leading-relaxed mb-6">
-                  Mit ueber 20 Jahren Erfahrung im Handwerk und Bauwesen
+                  Mit über 20 Jahren Erfahrung im Handwerk und Bauwesen
                   verbindet Veton Abazi meisterliches Know-how mit moderner
-                  Technik und innovativen Loesungen. Seine Leidenschaft fuer
-                  Praezision und Kundenzufriedenheit praeagt jedes Projekt.
+                  Technik und innovativen Lösungen. Seine Leidenschaft für
+                  Präzision und Kundenzufriedenheit prägt jedes Projekt.
                 </p>
                 <p className="text-white/80 text-lg leading-relaxed">
-                  Von der persoenlichen Beratung bis zur finalen Abnahme — Veton
+                  Von der persönlichen Beratung bis zur finalen Abnahme — Veton
                   Abazi stellt sicher, dass jedes Detail stimmt und Ihre
-                  Vorstellungen Realitaet werden.
+                  Vorstellungen Realität werden.
                 </p>
               </div>
             </div>
@@ -370,13 +370,13 @@ export default function UeberUnsPage() {
                 },
                 {
                   src: "/images/0-whatsapp-image-2021-07-19-at-21-43-24-3_large_UwnkcUR_pX.jpeg",
-                  alt: "Terrassenueberdachung mit Glas-Schiebeelementen",
+                  alt: "Terrassenüberdachung mit Glas-Schiebeelementen",
                   span: "",
                   aspect: "aspect-[4/3]",
                 },
                 {
                   src: "/images/referenzprojekt-aluminium-haustuer_large_6aMNz0iYWb.jpg",
-                  alt: "Aluminium Haustuer",
+                  alt: "Aluminium Haustür",
                   span: "lg:col-span-2",
                   aspect: "aspect-[21/9]",
                 },
@@ -421,8 +421,8 @@ export default function UeberUnsPage() {
               <span className="text-brand-accent">Projekt besprechen</span>
             </h2>
             <p className="text-xl text-white/80 font-light max-w-2xl mx-auto mb-10 leading-relaxed">
-              Kontaktieren Sie uns fuer ein unverbindliches Beratungsgespraech.
-              Wir besuchen Sie vor Ort und besprechen gemeinsam Ihre Wuensche.
+              Kontaktieren Sie uns für ein unverbindliches Beratungsgespräch.
+              Wir besuchen Sie vor Ort und besprechen gemeinsam Ihre Wünsche.
             </p>
             <Link
               href="/kontakt"

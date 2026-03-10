@@ -17,11 +17,11 @@ import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
 
 const produktOptions = [
-  "Terrassenueberdachungen",
+  "Terrassenüberdachungen",
   "Markisen",
   "Wintergarten",
   "Fenster",
-  "Haustueren",
+  "Haustüren",
   "Insektenschutz",
   "Raff-Store-Anlagen",
   "Sonstiges",
@@ -327,7 +327,7 @@ export default function KontaktPage() {
                 {/* Company Info Card */}
                 <div className="bg-brand-secondary p-8 md:p-10 mb-6">
                   <h3 className="text-white font-bold text-xl mb-6">
-                    HB Wintergaerten GmbH
+                    HB Wintergärten GmbH
                   </h3>
 
                   <div className="space-y-5">

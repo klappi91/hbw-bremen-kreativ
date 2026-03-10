@@ -234,7 +234,7 @@ export default function ReferenzenPage() {
             </h2>
             <p className="text-xl text-white/80 font-light max-w-2xl mx-auto mb-10 leading-relaxed">
               Jedes Projekt beginnt mit einem Gespräch. Kontaktieren Sie uns
-              und wir finden die perfekte Lösung für Ihre Wuensche.
+              und wir finden die perfekte Lösung für Ihre Wünsche.
             </p>
             <Link
               href="/kontakt"
